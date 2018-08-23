@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <navbar></navbar>
-<!-- <component :is="componentName"></component> -->
+<h1>Mohamed</h1>
 <router-view></router-view>
+<icon name="github"></icon>
   </div>
 </template>
 
@@ -23,6 +24,13 @@ export default {
 </script>
 
 <style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 ul {
   margin: 0;
   padding: 0;
